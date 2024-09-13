@@ -43,8 +43,8 @@ export const SearchDashboard = ({
             onChange={(e) => onSearchInput(e.target.value)}
           />
         </div>
+        <Categories items={categories} />
         <div className="ml-auto">
-          <Categories items={categories} />
           <Auth />
         </div>
       </div>

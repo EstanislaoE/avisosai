@@ -15,7 +15,7 @@ export const contentTemplates = [
     icon: FaYoutube,
     aiPromp:
       "Give me youtube video description idea based on give video description and title and give me in rich text editor format",
-    slug: "youtube-descriiton",
+    slug: "youtube-description",
     form: [
       {
         label: "Youtube Video Description Title",
